@@ -1,0 +1,71 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../img/TheEnd.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.texto{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+    color:  rgb(255, 255, 255);
+}
+
+.imagens{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img1{
+    margin-bottom: 500px;
+}
+#img1{
+    position: absolute;
+    background-image: url('../img/Shinji.webp');
+    width: 490px;
+    height: 400px;
+}
+#img1:hover{
+    background-image: url('../img/Shinji2.gif');
+    margin-right: 720px;
+    background-size: 400px 400px;
+    width: 400px;
+    height: 400px;
+}
+
+#img2{
+    position:relative;
+    background-image: url('../img/Gutts.jpg');
+    width: 235px;
+    height: 375px;
+   margin-left: 700px;
+   
+    
+}
+#img2:hover{
+    background-image: url('../img/Gutts2.gif');
+    width: 320px;
+    height: 325px;
+    margin-left: 700px;
+    
+
+}
+
+#img3{
+    background-image: url('../img/Simon.jpg');
+    width: 500px;
+    height: 288px;
+    margin-left: auto;
+}
+#img3:hover{
+    background-image: url('../img/Simon2.gif');
+    width: 500px;
+    height: 280px;
+    margin-left: auto;
+}
